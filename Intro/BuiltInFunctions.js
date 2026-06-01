@@ -18,6 +18,5 @@ console.log(A.toPrecision(3));
 console.log(C.valueOf());
 
 // Others build in
-console.log(number(A));
 console.log(parseInt("33.66"));
 console.log(parseFloat("13.66"));
