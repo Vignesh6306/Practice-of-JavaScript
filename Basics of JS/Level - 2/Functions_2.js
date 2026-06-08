@@ -14,4 +14,4 @@ function Sum(num1){
 }
 const result = Sum(10);
 const FinalResult = result(20);
-console.log(FinalResult);
+console.log(FinalResult); 
