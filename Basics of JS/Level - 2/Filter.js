@@ -12,5 +12,7 @@ const NameList = [
     {Name : 'Pat', Age : 18},
 ];
 
-const Age = NameList.filter((a) => a == 18);
-console.log("The elidgible students : " + Age);
+const FilteredName = NameList.filter((a) =>{ 
+    return  a.Age == 18 
+});
+console.log("The elidgible students : " + FilteredName);
